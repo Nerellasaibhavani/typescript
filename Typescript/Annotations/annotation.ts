@@ -1,6 +1,6 @@
 const apples: number = 5;
 let speed: string = 'fast'
-let hasName: boolean = 'true';
+let herName : boolean = 'true';
 let nothingMuch :null = null;
 
 let nothing: undefined = undefined;
@@ -16,11 +16,11 @@ let point: {x:number; y: number} ={
 }
 //Function
 const logNumber: = (i:number)= void=(i:number
-    console.log(i);
+    console.log (i),
     );
  //when to use Annotations
  function that return any type
- const json =("x:10,"y=20) ';
+ const json =("x:10,"y=20);
  const coordinates =json.parse'(json);
  console.log(coordinates);//{x:10, y:20};  
 

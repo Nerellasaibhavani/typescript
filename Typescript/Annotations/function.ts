@@ -1,15 +1,15 @@
-const add = (a:number,b:number):number{
-    Return a+b;
+const add = (a:number,b:number): number{
+    return a+b;
 }
 
-example
+//example
 const multiply = function(a:number,b:number):{
-    Return a*b;
+      return  a*b;
 };
 const logger =(message: string): void =>{
     console.log(message);
 };
-const throwError: = (message: string) never={
+const ThrowError: = (message: string) never={
     throwError new Error (message);
     return(message);
 };
